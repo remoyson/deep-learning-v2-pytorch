@@ -38,9 +38,9 @@ print('Num test images: ', len(test_data))
 batch_size = 20
 num_workers = 0
 
-train_loader = torch.utils.data.Dataloader(train_data, batch_size=batch_size,
+train_loader = torch.utils.data.DataLoader(train_data, batch_size=batch_size,
                                            num_workers=num_workers, shuffle=True)
-test_loader = torch.utils.data.Dataloader(test_data, batch_size=batch_size,
+test_loader = torch.utils.data.DataLoader(test_data, batch_size=batch_size,
                                           num_workers=num_workers, shuffle=True)
 
 vgg16 = models.vgg16(pretrained=True)

@@ -6,3 +6,4 @@ data
 flower_photos
 dogImages
 lfw
+*.pt

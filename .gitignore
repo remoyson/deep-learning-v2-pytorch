@@ -11,3 +11,4 @@ backup
 *.net
 gan-mnist/train_samples.pkl
 summer2winter-yosemite
+processed_celeba_small

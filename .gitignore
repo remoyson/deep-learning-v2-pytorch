@@ -9,3 +9,5 @@ lfw
 *.pt
 backup
 *.net
+gan-mnist/train_samples.pkl
+summer2winter-yosemite
